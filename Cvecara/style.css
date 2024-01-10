@@ -1,0 +1,174 @@
+*{
+    margin:0; 
+    padding: 0;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ 
+ body {
+    margin: 0px;
+    min-height: 150vh;
+    width: 100%;
+ }
+body{
+    background: rgb(238,133,181);
+    background: linear-gradient(228deg, rgba(238,133,181,1) 17%, rgba(255,255,255,1) 67%);
+}
+.header{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+.header p{
+    margin-right: 200px;
+}
+.header p {
+    border-bottom: 2px solid white;
+}
+.forma{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.forma input{
+    display: inline-block;
+
+}
+#total::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+#total {
+    -moz-appearance: textfield;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid #55D6C2;
+    padding: 10px;
+    margin-right: 5px;
+}
+label{
+    color: #2589BD;
+}
+.flower-cont{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+}
+.flower-cont-main{
+    display: flex;
+    flex-direction: column;
+}
+.flower-info-box{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    max-width: 20%;
+    padding: 20px;
+    text-align: left;
+}
+.flower-info-box img{
+    display: inline;
+    width: 250px;
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 4px ;
+    border-radius: 25px;
+    margin: 10px;
+}
+.flower1{
+    right: 80px;
+    top: 200px;
+    color: white;
+    border-left: 1px solid white;
+   
+}
+.flower2{
+    top: 600px;
+    right: 100px;
+    color: white;
+    border-left: 1px solid white;
+    
+}
+.flower3{
+    right: 550px;
+    top: 400px;
+    color: white;
+    border-right: 1px solid white;
+}
+#ruzeImg, #gerberiImg , #ljiljaniImg {
+    max-width: 400px;
+}
+#ruzeImg   {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#gerberiImg{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#ljiljaniImg{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2{
+    color: #EE85B5;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+#bezPopusta, #saPopustom {
+    margin-top: 20px;
+}
+input[type='radio'] {
+    accent-color:  #EE85B5;
+}
+#izracunaj {
+    background-color: #EE85B5;
+    color: white;
+}
+#resetuj{
+    background-color: #EE85B5;
+    color: white;
+}
+#option1,#option2,#option3 {
+    color:  #2589BD;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+}
+#option1{
+    margin-top: 50px;
+}
+#option3 {
+    margin-bottom: 10px;
+}
+input[type = "checkbox"] {
+    margin-top: 10px;
+}
+#option1 img{
+    height: 50px;
+    margin-left: 10px;
+}
+#option2 img {
+    height: 50px;
+    margin-left: 10px;
+}
+#option3 img{
+    height: 50px;
+    margin-left: 10px;
+}

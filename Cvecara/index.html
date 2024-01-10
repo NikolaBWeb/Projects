@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cvecara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="slike/JULIA__logo.png" alt="logo" class="logo">
+        <p>Vasa cvecara JULIA!</p>
+        
+    </header>
+    <p class="flower-info-box flower1">
+        Ruža (lat. Rosa sp.) je rod drvenastih biljaka iz porodice ruža (Rosaceae). 
+        Uzgaja se zbog lepih mirisnih cvetova i do danas postoje mnogi hibridi i kultivari ruža koji se međusobno razlikuju po boji i izgledu cveta, mirisu i postojanju trnova. Postoji veliki broj divljih ruža, čiji se plod (šipak, šipurak) bogat vitaminom C koristi u ishrani i za pripremu čajeva. Od oko 100 vrsta roda ruža u Srbiji raste dvadesetak. 
+        Srbija i jug Francuske su najbolja podneblja za gajenje ruža.
+        <img src="slike/rose.jfif" alt="rose">
+    </p>
+    <p class="flower-info-box flower2">
+        Tulipan (giljika, kološ, lipuškin, lat. Tulipa), je rod od 89 vrsta biljaka (plus jedan hibrid) u porodici ljiljanovki (lat. Liliaceae).
+        Područje odakle potječu vrste uključuje jug Europe, sjever Afrike, te Aziju, tj. područja Anatolije i Irana, a najveći broj vrsta potječe iz stepa Kazahstana i okolice planina Pamira i Hindukuša. 
+        Danas je većina vrsta uzgojena križanjem, a većina dolazi od vrste Tulipa gesneriana.
+        <img src="slike/tulipan.jpg" alt="tulipan">
+    </p>
+    <p class="flower-info-box flower3">
+        Ljiljani (lat. Liliaceae) su porodica monokotiledonih skrivenosemenica iz istoimenog reda (Liliales). 
+        Obuhvata 16 rodova sa 635 vrsta zeljastih višegodišnjih biljaka, rasprostranjenih na Severnoj Zemljinoj hemisferi. 
+        Važne karakteristike biljaka ove porodice su prisustvo podzemnog stabla po tipu lukovice, kao i često prisustvo krupnih cvetova sa šest listića cvetnog omotača i natcvetnim plodnikom.
+        <img src="slike/ljiljan.jfif" alt="">
+    </p>
+    <form action="" class="forma">
+        <h2>ODABERI CVECE</h2>
+        <div class="flower-cont-main">
+            <p class="flower-cont">
+                <input type="number" name="ruze" placeholder="150din" id="ruze" min="0" onkeypress="return event.charCode >= 48 && event.charCode <= 57" >
+                <label for="ruze">Ruze</label>
+                <img src="slike/Rose - 64.png" alt="">
+            </p>
+            <p class="flower-cont">
+                <input type="number" name="ljiljani" placeholder="120din" id="gerberi" min="0" onkeypress="return event.charCode >= 48 && event.charCode <= 57" >
+                <label for="gerberi">Tulipani</label>
+                <img src="slike/Tulip - 64.png" alt="">
+            </p>
+            <p class="flower-cont">
+                <input type="number" name="Ljiljani" placeholder="70 din" id="ljiljani" min="0" onkeypress="return event.charCode >= 48 && event.charCode <= 57" >
+                <label for="ljiljani">Ljiljani </label>
+                <img src="slike/Flower - 64.png" alt="">
+            </p>
+        </div>
+        
+        
+        <h2>DODACI</h2>
+        <div>
+            <label for="bombonjera">BOMBONJERA</label>
+            
+            <input type="checkbox" name="bombonjera" id="bombonjera">
+        </div>
+        <div>
+            <label for="cokolada">COKOLADA</label>
+            <input type="checkbox" name="cokolada" id="cokolada">
+           
+        </div>
+        <div>
+            <label for="sampanjac">SAMPANJAC</label>
+            <input type="checkbox" name="sampanjac" id="sampanjac">
+        </div>
+        
+        
+        
+        <h2>PLACANJE</h2>
+        <input type="radio" name="placanje" id="kes" checked>
+        <label for="kes">Kes</label><br>
+        <input type="radio" name="placanje" id="kartica">
+        <label for="kartica">Kartica</label><br>
+        
+        <input type="submit" value="IZRACUNAJ" id="izracunaj" >
+        <input type="reset" value="RESETUJ" onClick="window.location.reload()"><br>
+        <div id="ruzeImg"></div>
+        <div id="gerberiImg"></div>
+        <div id="ljiljaniImg"></div>
+        <p id="option1"></p>
+        <p id="option2"></p>
+        <p id="option3"></p>
+        <div>
+            <div class="total-container">
+                <label for="bezPopusta"><h3>Vrednost porudzbine bez popusta:</h3></label>
+                <input type="text" id="bezPopusta">
+            </div>
+            <div class="total-container">
+                <label for="saPopustom"><h2>Vrednost porudzbine sa popustom:</h2></label>
+                <input type="text" id="saPopustom"  readonly>
+            </div>
+            
+        </div>
+        
+        
+        
+    </form>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

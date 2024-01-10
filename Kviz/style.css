@@ -1,0 +1,164 @@
+
+body {
+    background-image: url(slike/bmw.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Racing;
+    src: url(fonts/raceline/RacelineDemo.otf);
+  }
+#prikaz-pitanja {
+    margin: 20px;
+    width: 600px;
+    border-radius: 25px;
+    padding: 30px;
+    text-align: center;
+    
+    
+    
+}
+div div div{
+    display: inline-block;
+    width: 500px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(31, 30, 30);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 40px rgb(132, 0, 255),
+    0 0 40px rgb(132, 0, 255),
+    0 0 40px rgb(132, 0, 255),
+    0 0 40px rgb(132, 0, 255),
+    0 0 40px rgb(132, 0, 255);
+    color: white;
+}
+.neon{
+    
+    font-size:100px;
+    color: #fff;
+    position: absolute;
+    top: 6%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    letter-spacing: 8px;
+    
+    
+  }h1 {
+    font-family: Racing;
+    animation: flicker 0.8s infinite alternate;     
+  }
+
+  
+  
+  
+  @keyframes flicker {
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(132, 0, 255),
+        0 0 40px rgb(132, 0, 255),
+        0 0 40px rgb(132, 0, 255),
+        0 0 40px rgb(132, 0, 255),
+        0 0 40px rgb(132, 0, 255);
+    }
+    20%, 24%, 55% {       
+      text-shadow: none;
+    }
+  }
+
+  #prikupiOdgovore {
+    padding: 10px;
+    margin: 20px;
+    font-family: Racing;
+    box-shadow: 0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255);
+    font-size: 30px;
+    margin-left: 100px;   
+    
+  }
+#Reset {
+    padding: 10px;
+    margin: 20px;
+    font-family: Racing;
+    box-shadow: 0 0 4px #fff,
+    0 0 11px #fff,
+    0 0 19px #fff,
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255),
+    0 0 10px rgb(132, 0, 255);
+    font-size: 30px;
+    margin-left: 100px2
+    
+    
+}
+.odgovori{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.odgovori p{
+    border: 1px solid white;
+    border-color: (31, 30, 30);
+    width: 200px;
+    display: inline-block;
+    visibility: hidden;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    
+    
+    
+}
+.tacan {
+    visibility: visible !important;
+    color:rgb(0, 255, 128) ;
+    box-shadow: 0 0 4px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 10px ,
+    0 0 10px rgb(0, 255, 128),
+    0 0 10px rgb(0, 255, 128),
+    0 0 10px rgb(0, 255, 128),
+    0 0 10px rgb(0, 255, 128);
+    background-color: rgb(31, 30, 30);
+    
+
+}
+.netacan {
+    visibility:visible !important;
+    color: #f30909;
+    box-shadow: 0 0 4px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 10px #f30909,
+    0 0 10px  #f30909,
+    0 0 10px  #f30909,
+    0 0 10px  #f30909,
+    0 0 10px  #f30909;
+    background-color: rgb(31, 30, 30);
+    
+
+}
+.odgovori{
+    text-align: center;
+}
