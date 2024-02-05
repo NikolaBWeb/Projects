@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Igra Pamcenja",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Igra Pamcenja"
+	}
+}
